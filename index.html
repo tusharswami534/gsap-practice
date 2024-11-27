@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Gsap</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div>
+      <section class="min-h-screen overflow-hidden bg-red-400">
+        <h1 class="hero-section-text  text-3xl font-bold">Hello World</h1>
+      </section>
+      <section id="section" class="min-h-screen bg-blue-400 flex justify-center overflow-hidden items-center">
+          <div>
+            <p class="min-w-[5270px] hero-text text-3xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus praesentium cum tempora magnam fugiat suscipit quia amet id tempore fuga enim non nulla vel laudantium molestias, nihil officia quos earum ad pariatur reprehenderit officiis modi consequatur. Blanditiis alias soluta culpa, rerum minus ipsum, cumque expedita tempore cupiditate, nam reiciendis provident?</p>
+          </div>
+      </section>
+      <section id="sectionthree" class="min-h-screen flex justify-center items-center flex-col overflow-hidden ">
+        <h1 class="text text-3xl font-bold">Hello World</h1>
+        <h1 class="text text-3xl font-bold">Hello World</h1>
+        <h1 class="text text-3xl font-bold">Hello World</h1>
+        <h1 class="text text-3xl font-bold">Hello World</h1>
+        <h1 class="text text-3xl font-bold">Hello World</h1>
+      </section>
+      <section id="sectionfour" class="min-h-screen bg-green-400">
+        <div class="w-40 fourbox h-40 bg-blue-400"></div>
+        <div class="w-40 fourbox h-40 bg-black"></div>
+        <div class="w-40 fourbox h-40 bg-white"></div>
+        <div class="w-40 fourbox h-40 bg-red-900"></div>
+      </section>
+      <section class="min-h-screen"></section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/app.js">
+    </script>
+</body>
+</html>
