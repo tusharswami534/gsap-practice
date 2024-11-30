@@ -1,4 +1,4 @@
-// Ensure GSAP and ScrollTrigger are registered
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("#scroll-line", {
